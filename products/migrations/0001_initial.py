@@ -19,6 +19,7 @@ class Migration(migrations.Migration):
                 ('description', models.CharField(max_length=255)),
                 ('price', models.DecimalField(decimal_places=2, max_digits=8)),
                 ('inventory_quantity', models.IntegerField()),
+                ('product_picture', models.CharField(max_length=255, default='No link attached')),
             ],
         ),
     ]
